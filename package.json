@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
+    "firebase": "^8.5.0",
     "next": "10.0.5",
     "postcss": "^7",
     "react": "17.0.1",
