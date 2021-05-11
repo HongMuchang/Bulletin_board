@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { ReactNode, VFC } from 'react'
-import { Footer } from '../atoms/layout/Footer'
-import { Header } from '../atoms/layout/header'
+import { Header, Footer } from '../atoms/layout/index'
 
 type Props = {
   title: string
@@ -10,6 +9,7 @@ type Props = {
 
 export const Layout: VFC<Props> = (props) => {
   const { title, children } = props
+
   return (
     <>
       <div>
@@ -18,7 +18,7 @@ export const Layout: VFC<Props> = (props) => {
         </Head>
 
         <Header />
-        <main className="h">{children}</main>
+        <main>{children}</main>
         <Footer />
       </div>
     </>
