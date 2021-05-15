@@ -21,7 +21,7 @@ export const Date = [
     id: 4,
     title: 'Recoil',
     link: 'https://google.com',
-    category: 'React',
+    category: 'Css',
   },
   {
     id: 5,
@@ -37,7 +37,43 @@ export const Date = [
   },
   {
     id: 7,
+    title: 'CSS',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 8,
     title: 'Recoil',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 9,
+    title: 'デザインシステム',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 10,
+    title: 'JavaScript',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 11,
+    title: 'Node',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 12,
+    title: 'パフォーマンスチューニング',
+    link: 'https://google.com',
+    category: 'React',
+  },
+  {
+    id: 13,
+    title: 'HTML',
     link: 'https://google.com',
     category: 'React',
   },
